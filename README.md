@@ -28,13 +28,13 @@ I'm passionate about building scalable, user-focused applications that solve rea
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,python,cpp" />
+<img src="https://skillicons.dev/icons?i=js,java,cpp" />
 </p>
 
 ### Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap,vite" />
+<img src="https://skillicons.dev/icons?i=react,html,css,js,vite" />
 </p>
 
 ### Backend
@@ -46,13 +46,13 @@ I'm passionate about building scalable, user-focused applications that solve rea
 ### Database
 
 <p>
-<img src="https://skillicons.dev/icons?i=mongodb" />
+<img src="https://skillicons.dev/icons?i=mongodb,sql" />
 </p>
 
 ### Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,thunder,npm" />
 </p>
 
 ---
@@ -69,7 +69,7 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=atulmohinkar&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -79,7 +79,7 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&margin-w=15&row=1"/>
+<img src="https://github-profile-trophy.vercel.app/?username=atulmohinkar&theme=tokyonight&no-frame=true&margin-w=15&row=1"/>
 
 </p>
 
@@ -111,11 +111,11 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 <p align="left">
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/atulmohinkar">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/atulmohinkar/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
