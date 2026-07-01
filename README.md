@@ -63,7 +63,6 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 <p align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&theme=tokyonight&hide_border=true"/>
 
