@@ -115,11 +115,10 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 | 🚀 Project | 📝 Description | ⚙️ Tech Stack | 🌐 Live Demo | 💻 Source Code |
 |------------|----------------|--------------|--------------|----------------|
-| Project 1 | Short description | MERN | Demo | Code |
+| NextStep | Career Guidance Site | React | Demo | Code |
 | Project 2 | Short description | MERN | Demo | Code |
 | Project 3 | Short description | React | Demo | Code |
-| Project 4 | Short description | Node.js | Demo | Code |
-| Project 5 | Short description | MERN | Demo | Code |
+
 
 ---
 
