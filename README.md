@@ -114,7 +114,7 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 | 🚀 Project | 📝 Description | ⚙️ Tech Stack | 🌐 Live Demo | 💻 Source Code |
 |------------|----------------|--------------|--------------|----------------|
-| NextStep | Career Guidance Site | React | Demo | Code |
+| NextStep | Career Guidance Site | React | https://next-step-brown.vercel.app/ | Code |
 | Project 2 | Short description | MERN | Demo | Code |
 | Project 3 | Short description | React | Demo | Code |
 
