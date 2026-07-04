@@ -59,6 +59,9 @@ I'm passionate about building scalable, user-focused applications that solve rea
 
 ---
 
+<img src="./assets/nextstep.png" width="900" alt="NextStep">
+
+
 # 📊 GitHub Analytics
 
 <p align="center">
