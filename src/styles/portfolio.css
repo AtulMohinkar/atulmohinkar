@@ -1081,6 +1081,9 @@ body.portfolio-body {
   gap: 0.5rem;
 }
 .footer ul a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   color: var(--p-muted);
   font-size: 0.88rem;
 }

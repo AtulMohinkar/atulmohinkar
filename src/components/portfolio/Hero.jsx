@@ -48,10 +48,8 @@ export default function Hero() {
           </p>
           <h1 id="hero-title">
             {profile.name}
-            <br />
-            <span className="gradient-text">MERN Stack Developer</span>
           </h1>
-          <p className="typing" aria-live="polite">
+          <p className="typing gradient-text" aria-live="polite">
             {typed}
             <span className="caret" aria-hidden="true" />
           </p>
