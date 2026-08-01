@@ -49,8 +49,8 @@ export default function Hero() {
           <h1 id="hero-title">
             {profile.name}
           </h1>
-          <p className="typing gradient-text" aria-live="polite">
-            {typed}
+          <p className="typing" aria-live="polite">
+            <span className="gradient-text">{typed}</span>
             <span className="caret" aria-hidden="true" />
           </p>
           <p className="hero-tagline">{profile.tagline}</p>
