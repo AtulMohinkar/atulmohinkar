@@ -77,14 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aarav Sharma — MERN Stack Developer" },
+      { title: "Atul Mohinkar — MERN Stack Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Aarav Sharma, a fresher MERN stack developer building full-stack web apps with React, Node.js, Express and MongoDB.",
+          "Portfolio of Atul Mohinkar, a MERN stack developer building full-stack web apps with React, Node.js, Express and MongoDB.",
       },
-      { name: "author", content: "Aarav Sharma" },
-      { property: "og:site_name", content: "Aarav Sharma — Portfolio" },
+      { name: "author", content: "Atul Mohinkar" },
+      { property: "og:site_name", content: "Atul Mohinkar — Portfolio" },
+
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

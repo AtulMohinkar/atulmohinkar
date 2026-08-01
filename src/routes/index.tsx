@@ -20,9 +20,9 @@ import { BackToTop, CustomCursor, LoadingScreen } from "../components/portfolio/
 const GithubDashboard = lazy(() => import("../components/portfolio/GithubDashboard"));
 const Contact = lazy(() => import("../components/portfolio/Contact"));
 
-const title = "Aarav Sharma — MERN Stack Developer Portfolio";
+const title = "Atul Mohinkar — MERN Stack Developer Portfolio";
 const description =
-  "Portfolio of Aarav Sharma, a fresher MERN stack developer building full-stack apps with MongoDB, Express, React and Node.js. Projects, experience and contact.";
+  "Portfolio of Atul Mohinkar, a MERN stack developer from Nagpur building full-stack apps with MongoDB, Express.js, React.js and Node.js. Projects, experience and contact.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       {
         name: "keywords",
         content:
-          "MERN stack developer, React developer portfolio, Node.js developer, fresher web developer, full stack developer India",
+          "MERN stack developer, React developer portfolio, Node.js developer, full stack developer Nagpur, Atul Mohinkar",
       },
       { property: "og:title", content: title },
       { property: "og:description", content: description },
@@ -49,18 +49,18 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Aarav Sharma",
+          name: "Atul Mohinkar",
           jobTitle: "MERN Stack Developer",
-          address: { "@type": "PostalAddress", addressLocality: "Pune", addressCountry: "IN" },
+          address: { "@type": "PostalAddress", addressLocality: "Nagpur", addressCountry: "IN" },
           sameAs: [
-            "https://github.com/aarav-sharma",
-            "https://linkedin.com/in/aarav-sharma",
-            "https://leetcode.com/aarav-sharma",
+            "https://github.com/AtulMohinkar",
+            "https://linkedin.com/in/atulmohinkar",
           ],
         }),
       },
     ],
   }),
+
   component: Index,
 });
 

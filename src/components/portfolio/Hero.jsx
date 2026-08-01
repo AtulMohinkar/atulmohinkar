@@ -84,18 +84,19 @@ export default function Hero() {
 
           <div className="stat-row">
             <div className="glass stat">
-              <strong>10+</strong>
-              <span>Projects</span>
-            </div>
-            <div className="glass stat">
-              <strong>350+</strong>
-              <span>DSA Solved</span>
-            </div>
-            <div className="glass stat">
-              <strong>6 mo</strong>
+              <strong>7 mo</strong>
               <span>Internship</span>
             </div>
+            <div className="glass stat">
+              <strong>MERN</strong>
+              <span>Core Stack</span>
+            </div>
+            <div className="glass stat">
+              <strong>50+</strong>
+              <span>Products Shipped</span>
+            </div>
           </div>
+
         </motion.div>
 
         <motion.div
