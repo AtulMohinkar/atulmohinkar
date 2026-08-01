@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Atul Mohinkar — MERN Stack Developer" },
+      { name: "twitter:title", content: "Atul Mohinkar — MERN Stack Developer" },
+      { property: "og:description", content: "Portfolio of Atul Mohinkar, a MERN stack developer building full-stack web apps with React, Node.js, Express and MongoDB." },
+      { name: "twitter:description", content: "Portfolio of Atul Mohinkar, a MERN stack developer building full-stack web apps with React, Node.js, Express and MongoDB." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a7b8633d-801e-4f0d-95d0-8623914f508f/id-preview-744e2306--0be03f20-da80-44c4-82a4-0c323b49a059.lovable.app-1785561797256.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a7b8633d-801e-4f0d-95d0-8623914f508f/id-preview-744e2306--0be03f20-da80-44c4-82a4-0c323b49a059.lovable.app-1785561797256.png" },
     ],
     links: [
       {
