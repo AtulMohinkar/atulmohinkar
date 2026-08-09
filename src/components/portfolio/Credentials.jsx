@@ -23,7 +23,7 @@ export function Certifications() {
                 <p>
                   {cert.issuer} · {cert.year}
                 </p>
-                <p className="cert-id">ID: {cert.id}</p>
+                {/* <p className="cert-id">ID: {cert.id}</p> */}
               </div>
             </article>
           </Reveal>

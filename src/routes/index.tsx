@@ -14,7 +14,7 @@ import Experience from "../components/portfolio/Experience";
 import Education from "../components/portfolio/Education";
 import { Achievements, Certifications } from "../components/portfolio/Credentials";
 import Footer from "../components/portfolio/Footer";
-import { BackToTop, CustomCursor, LoadingScreen } from "../components/portfolio/Extras";
+import { BackToTop,  LoadingScreen } from "../components/portfolio/Extras";
 
 // Heavier, below-the-fold sections are code-split.
 const GithubDashboard = lazy(() => import("../components/portfolio/GithubDashboard"));
@@ -69,7 +69,6 @@ function Index() {
     <ThemeProvider>
       <div className="pf">
         <LoadingScreen />
-        <CustomCursor />
         <ScrollProgress />
         <a className="skip-link" href="#main">
           Skip to main content

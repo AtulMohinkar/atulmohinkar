@@ -1,20 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Star, Users } from "lucide-react";
 import Section, { Reveal } from "./Section";
-import { githubFallback, profile, projects, topLanguages } from "../../data/profile";
-
-/** Deterministic pseudo-random contribution calendar placeholder. */
-function useCalendar() {
-  return useMemo(
-    () =>
-      Array.from({ length: 26 * 7 }, (_, i) => {
-        const seed = (i * 9301 + 49297) % 233280;
-        return Math.floor((seed / 233280) * 5);
-      }),
-    [],
-  );
-}
+import { githubFallback, profile, projects } from "../../data/profile";
 
 const levelColor = [
   "rgba(148,163,184,0.14)",
@@ -26,7 +14,6 @@ const levelColor = [
 
 export default function GithubDashboard() {
   const [user, setUser] = useState(githubFallback);
-  const calendar = useCalendar();
 
   // Live GitHub profile stats, falling back to static data on error/rate limit.
   useEffect(() => {
@@ -93,46 +80,32 @@ export default function GithubDashboard() {
         <div style={{ display: "grid", gap: "1.25rem" }}>
           <Reveal delay={0.08}>
             <div className="glass pad">
-              <h3 style={{ fontSize: "1rem" }}>Contribution calendar</h3>
-              <p className="section-sub" style={{ fontSize: "0.84rem", marginTop: "0.35rem" }}>
-                Placeholder visualisation — 6 months of activity.
-              </p>
-              <div className="calendar" aria-hidden="true">
-                {calendar.map((level, i) => (
-                  <motion.span
-                    key={i}
-                    className="cal-cell"
-                    style={{ background: levelColor[level] }}
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.3, delay: (i % 40) * 0.006 }}
-                  />
-                ))}
-              </div>
-            </div>
-          </Reveal>
+              <h3 style={{ fontSize: "1rem" }}>GitHub Contributions</h3>
 
-          <Reveal delay={0.14}>
-            <div className="glass pad">
-              <h3 style={{ fontSize: "1rem", marginBottom: "1rem" }}>Top languages</h3>
-              {topLanguages.map((lang) => (
-                <div className="lang-row" key={lang.name}>
-                  <div className="skill-label">
-                    <span>{lang.name}</span>
-                    <span>{lang.percent}%</span>
-                  </div>
-                  <div className="bar">
-                    <motion.div
-                      className="bar-fill"
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${lang.percent}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.9 }}
-                    />
-                  </div>
-                </div>
-              ))}
+              <p className="section-sub" style={{ fontSize: "0.84rem", marginTop: "0.35rem" }}>
+                My GitHub contribution activity.
+              </p>
+
+              <div
+                style={{
+                  marginTop: "1rem",
+                  width: "100%",
+                  overflowX: "auto",
+                  paddingBottom: "0.5rem",
+                }}
+              >
+                <img
+                  src="https://ghchart.rshah.org/AtulMohinkar"
+                  alt="Atul Mohinkar GitHub contribution graph"
+                  style={{
+                    width: "100%",
+                    minWidth: "650px",
+                    height: "auto",
+                    display: "block",
+                  }}
+                  loading="lazy"
+                />
+              </div>
             </div>
           </Reveal>
 

@@ -3,6 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, ExternalLink, FolderGit2, Github, Search } from "lucide-react";
 import Section, { Reveal } from "./Section";
 import { projects } from "../../data/profile";
+import CareerImg from "../../assets/Career.png";
+import EcommerceImg from "../../assets/E-com.png";
 
 const categories = ["All", "Full Stack", "Frontend", "Backend"];
 
@@ -18,7 +20,11 @@ function ProjectCard({ project, index }) {
           role="img"
           aria-label={`${project.title} cover`}
         >
-          {initials}
+          {project.img ? (
+            <img src={project.img} alt={project.title} className="project-cover-image" />
+          ) : (
+            initials
+          )}
         </div>
         <div className="project-body">
           <h3>{project.title}</h3>

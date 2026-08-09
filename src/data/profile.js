@@ -4,6 +4,8 @@
  */
 
 import resumeAsset from "../assets/resume.pdf.asset.json";
+import CareerImg from "../assets/Career.png";
+import EcommerceImg from "../assets/E-com.png";
 
 export const profile = {
   name: "Atul Mohinkar",
@@ -39,7 +41,7 @@ export const about = {
   journey:
     "I started with JavaScript, HTML and CSS fundamentals alongside my B.Tech in Artificial Intelligence, then went deep on React.js and Node.js. During my internship at Edvercity (LiveTechSkills) I shipped reusable React components, integrated RESTful APIs and worked with Git and GitHub in an Agile team.",
   objective:
-    "Looking for a MERN / full-stack role where I can own features end-to-end, learn from senior engineers and grow into a well-rounded product engineer.",
+    "Looking for a MERN / full-stack role where I can own features end-to-end, learn from senior engineers and grow into a well-rounded product engineer, where i can deal and solve real-world problem through my skills.",
   facts: [
     { label: "Location", value: "Nagpur, India" },
     { label: "Degree", value: "B.Tech — Artificial Intelligence" },
@@ -113,6 +115,7 @@ export const skillGroups = [
 export const projects = [
   {
     id: "career-guidance",
+    img: CareerImg,
     title: "Career Guidance Platform",
     category: "Frontend",
     description:
@@ -131,12 +134,13 @@ export const projects = [
       { label: "Responsive", value: "100%" },
       { label: "Components", value: "Reusable" },
     ],
-    demo: "https://github.com/AtulMohinkar",
-    code: "https://github.com/AtulMohinkar",
+    demo: "https://next-step-brown.vercel.app",
+    code: "https://github.com/AtulMohinkar/NextStep",
     accent: "blue",
   },
   {
     id: "ecommerce",
+    img: EcommerceImg,
     title: "E-Commerce Website",
     category: "Full Stack",
     description:
@@ -146,7 +150,7 @@ export const projects = [
       "Product search, category filtering and shopping cart",
       "REST APIs with Express.js and MongoDB data models",
     ],
-    stack: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    stack: ["MongoDB", "Express.js", "React.js", "Node.js", "REST API"],
     challenges:
       "Efficient product querying at scale — solved with indexed MongoDB queries and paginated API responses.",
     role: "Full-stack developer — schema design, API and UI.",
@@ -168,11 +172,11 @@ export const experience = [
     period: "Dec 2025 — Jun 2026",
     type: "Internship",
     points: [
-      "Developed responsive full-stack web applications using the MERN stack.",
-      "Built reusable React components and integrated RESTful APIs for seamless frontend-backend communication.",
-      "Designed MongoDB schemas and implemented CRUD operations using Mongoose.",
-      "Collaborated with developers using Git and GitHub in an Agile environment.",
-      "Optimized application performance and enhanced UX through efficient component design.",
+      "• Developed responsive full-stack web applications using the MERN stack.",
+      "• Built reusable React components and integrated RESTful APIs for seamless frontend-backend communication.",
+      "• Designed MongoDB schemas and implemented CRUD operations using Mongoose.",
+      "• Collaborated with developers using Git and GitHub in an Agile environment.",
+      "• Optimized application performance and enhanced UX through efficient component design.",
     ],
   },
 ];
@@ -180,7 +184,7 @@ export const experience = [
 export const education = [
   {
     degree: "B.Tech — Artificial Intelligence",
-    school: "Priyadarshini J. L. College of Engineering (RTMNU)",
+    school: "Priyadarshini Bhagwati College of Engineering (RTMNU)",
     period: "2023 — Present",
     score: "CGPA 7.54",
     courses: [
@@ -212,21 +216,19 @@ export const certifications = [
   {
     name: "Diploma in MERN Stack",
     issuer: "AICSM",
-    year: "2025",
-    id: "MERN-AICSM",
+    year: "2026",
   },
-  {
-    name: "Basics of Java",
-    issuer: "Simplilearn",
-    year: "2024",
-    id: "SL-JAVA",
-  },
-  {
+   {
     name: "ServiceNow Virtual Internship Program",
     issuer: "ServiceNow University & SmartBridge",
-    year: "2026",
-    id: "SN-VIP-2026",
+    year: "2025",
   },
+  {
+    name: "Java Programming for Beginners",
+    issuer: "Simplilearn",
+    year: "2025",
+  },
+ 
 ];
 
 export const achievements = [
@@ -237,14 +239,14 @@ export const achievements = [
     tag: "Experience",
   },
   {
-    title: "Diploma in MERN Stack",
-    detail: "Completed a structured full-stack development diploma at AICSM.",
+    title: "DSA Completion Certification",
+    detail: "Basics of Data Structures and Algorithms.",
     tag: "Certification",
   },
   {
-    title: "ServiceNow Virtual Internship",
-    detail: "Completed the ServiceNow University & SmartBridge program (2026).",
-    tag: "Program",
+    title: "Kabbadi Tournament",
+    detail: "Runner Up in College Kabbadi Tournament-2025",
+    tag: "Sports",
   },
   {
     title: "Full-Stack Projects",
@@ -257,20 +259,14 @@ export const achievements = [
 export const githubFallback = {
   login: "AtulMohinkar",
   name: "Atul Mohinkar",
-  bio: "MERN stack developer · building in public",
+  bio: "Final Year AI Student | MERN stack developer | Software Developer",
   followers: 0,
   following: 0,
   public_repos: 0,
   html_url: "https://github.com/AtulMohinkar",
-  avatar_url: "",
+  avatar_url: "https://avatars.githubusercontent.com/u/298112498?v=4",
 };
 
-export const topLanguages = [
-  { name: "JavaScript", percent: 58 },
-  { name: "CSS", percent: 18 },
-  { name: "HTML", percent: 14 },
-  { name: "Java", percent: 10 },
-];
 
 export const navLinks = [
   { label: "Home", href: "#home" },

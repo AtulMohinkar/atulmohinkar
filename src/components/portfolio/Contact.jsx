@@ -4,17 +4,6 @@ import { Mail, MapPin, Phone, Send } from "lucide-react";
 import Section, { Reveal } from "./Section";
 import { profile } from "../../data/profile";
 
-/**
- * EmailJS integration via its REST endpoint (no extra dependency).
- * Set VITE_EMAILJS_SERVICE_ID / VITE_EMAILJS_TEMPLATE_ID / VITE_EMAILJS_PUBLIC_KEY
- * to enable real sending; otherwise the form falls back to a mail client draft.
- */
-const EMAILJS = {
-  service: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  template: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-};
-
 const empty = { name: "", email: "", subject: "", message: "" };
 
 function validate(values) {
@@ -37,40 +26,40 @@ export default function Contact() {
   const [sending, setSending] = useState(false);
 
   const onChange = (e) => setValues((v) => ({ ...v, [e.target.name]: e.target.value }));
-
   const onSubmit = async (e) => {
     e.preventDefault();
+
     const found = validate(values);
     setErrors(found);
+
     if (Object.keys(found).length) {
       toast.error("Please fix the highlighted fields.");
       return;
     }
 
     setSending(true);
+
     try {
-      if (EMAILJS.service && EMAILJS.template && EMAILJS.publicKey) {
-        const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            service_id: EMAILJS.service,
-            template_id: EMAILJS.template,
-            user_id: EMAILJS.publicKey,
-            template_params: { ...values, to_email: profile.email },
-          }),
-        });
-        if (!res.ok) throw new Error("EmailJS request failed");
-        toast.success("Message sent — I'll reply within 24 hours!");
-      } else {
-        window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(
-          values.subject,
-        )}&body=${encodeURIComponent(`${values.message}\n\n— ${values.name} (${values.email})`)}`;
-        toast.info("Opening your mail app to finish sending.");
+      const res = await fetch("http://localhost:5000/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || "Failed to send message");
       }
+
+      toast.success("Message sent — I'll reply within 24 hours!");
       setValues(empty);
-    } catch {
-      toast.error("Something went wrong. Please email me directly.");
+      setErrors({});
+    } catch (error) {
+      console.error("Contact form error:", error);
+      toast.error("Something went wrong. Please try again.");
     } finally {
       setSending(false);
     }

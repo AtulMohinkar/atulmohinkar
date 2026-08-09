@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Code2, Sparkles } from "lucide-react";
-import profileImg from "../../assets/profile.jpg";
+import profileImg from "../../assets/profile.png";
 import { profile } from "../../data/profile";
 import { useTypewriter } from "../../hooks/usePortfolio";
 
@@ -92,8 +92,8 @@ export default function Hero() {
               <span>Core Stack</span>
             </div>
             <div className="glass stat">
-              <strong>50+</strong>
-              <span>Products Shipped</span>
+              <strong>7+</strong>
+              <span>Module Build</span>
             </div>
           </div>
 
