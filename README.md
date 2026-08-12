@@ -116,7 +116,7 @@ A full-stack e-commerce application designed around product management, authenti
 
 <p align="center">
   <img
-    src="./profile/top-langs.svg"
+    src="./AtulMohinkar/top-langs.svg"
     height="180"
     alt="Top Languages"
   </p>
