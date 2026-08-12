@@ -114,6 +114,12 @@ A full-stack e-commerce application designed around product management, authenti
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AtulMohinkar&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
+<p align="center">
+  <img
+    src="./profile/top-langs.svg"
+    height="180"
+    alt="Top Languages"
+  </p>
 ---
 
 # 📈 Contributions
@@ -124,25 +130,7 @@ A full-stack e-commerce application designed around product management, authenti
 
 ---
 
-# 🚀 Current Focus
-
-```text
-DSA with Java
-      ↓
-Advanced React
-      ↓
-TypeScript
-      ↓
-Next.js
-      ↓
-Backend Architecture
-      ↓
-System Design
-      ↓
-Docker & DevOps
-```
-
-### Currently Working On
+### 🚀 Currently Working On
 
 * 📚 Data Structures & Algorithms
 * ⚛️ Advanced React
@@ -186,18 +174,7 @@ I'm interested in opportunities involving:
 
 ---
 
-# 📚 What I'm Learning
 
-| Area             | Focus                                 |
-| ---------------- | ------------------------------------- |
-| 🧠 DSA           | Java & Problem Solving                |
-| ⚛️ Frontend      | React, TypeScript, Next.js            |
-| ⚙️ Backend       | Node.js, Express.js, API Architecture |
-| 🗄️ Database     | MongoDB, SQL                          |
-| 🏗️ Architecture | System Design & Scalable Applications |
-| 🐳 DevOps        | Docker, CI/CD & AWS                   |
-| 🔐 Security      | Authentication & Authorization        |
-| 🤝 Community     | Open Source Contributions             |
 
 ---
 
