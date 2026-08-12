@@ -32,7 +32,7 @@ export const profile = {
     linkedin: "https://linkedin.com/in/atulmohinkar",
     leetcode: "https://leetcode.com/u/AtulMohinkar",
   },
-  mapEmbed: "https://www.google.com/maps?q=Nagpur,Maharashtra,India&output=embed",
+  mapEmbed: "https://www.google.com/maps?q=buddha vihar,Kawrapeth,Umred,Nagpur,Maharashtra,India&output=embed",
 };
 
 export const about = {

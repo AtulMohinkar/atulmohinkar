@@ -95,7 +95,7 @@ I'm focused on strengthening my software engineering, problem-solving, and full-
 ## 📫 Connect With Me
 
 * **GitHub:** [@AtulMohinkar](https://github.com/AtulMohinkar)
-* **Portfolio:** (https://linked)
+* **Portfolio:** (https://atulmohinkar.vercel.app)
 * **LinkedIn:** (https://linkedin.com/in/atulmohinkar)
 
 ---

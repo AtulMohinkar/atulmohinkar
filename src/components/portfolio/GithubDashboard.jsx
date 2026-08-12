@@ -1,29 +1,25 @@
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Github, Star, Users } from "lucide-react";
 import Section, { Reveal } from "./Section";
 import { githubFallback, profile, projects } from "../../data/profile";
 
-const levelColor = [
-  "rgba(148,163,184,0.14)",
-  "rgba(37,99,235,0.35)",
-  "rgba(37,99,235,0.55)",
-  "rgba(124,58,237,0.7)",
-  "rgba(6,182,212,0.9)",
-];
-
 export default function GithubDashboard() {
   const [user, setUser] = useState(githubFallback);
 
-  // Live GitHub profile stats, falling back to static data on error/rate limit.
   useEffect(() => {
     let cancelled = false;
+
     fetch(`https://api.github.com/users/${profile.githubUsername}`)
-      .then((res) => (res.ok ? res.json() : Promise.reject(new Error("gh"))))
+      .then((res) =>
+        res.ok ? res.json() : Promise.reject(new Error("GitHub API error"))
+      )
       .then((data) => {
-        if (!cancelled) setUser({ ...githubFallback, ...data });
+        if (!cancelled) {
+          setUser({ ...githubFallback, ...data });
+        }
       })
       .catch(() => {});
+
     return () => {
       cancelled = true;
     };
@@ -35,36 +31,49 @@ export default function GithubDashboard() {
       eyebrow="GitHub"
       icon={<Github size={14} />}
       title="I build in public"
-      subtitle="Live profile stats pulled from the GitHub API, with pinned work and language breakdown."
+      subtitle="Live profile stats pulled from the GitHub API, with pinned work and contribution activity."
     >
       <div className="gh-grid">
+        {/* PROFILE */}
         <Reveal>
           <div className="glass gh-profile card-hover">
             <div className="gh-avatar" aria-hidden="true">
               {user.avatar_url ? (
-                <img src={user.avatar_url} alt="" width={84} height={84} loading="lazy" />
+                <img
+                  src={user.avatar_url}
+                  alt=""
+                  width={84}
+                  height={84}
+                  loading="lazy"
+                />
               ) : (
                 <Github size={32} />
               )}
             </div>
+
             <h3>@{user.login}</h3>
-            <p className="section-sub" style={{ fontSize: "0.88rem" }}>
+
+            <p className="section-sub gh-bio">
               {user.bio || githubFallback.bio}
             </p>
+
             <div className="gh-stats">
               <div className="glass stat">
                 <strong>{user.public_repos}</strong>
                 <span>Repos</span>
               </div>
+
               <div className="glass stat">
                 <strong>{user.followers}</strong>
                 <span>Followers</span>
               </div>
+
               <div className="glass stat">
                 <strong>{user.following}</strong>
                 <span>Following</span>
               </div>
             </div>
+
             <a
               className="btn btn-ghost btn-block"
               style={{ marginTop: "1.2rem" }}
@@ -72,58 +81,52 @@ export default function GithubDashboard() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Users size={16} /> View profile
+              <Users size={16} />
+              View profile
             </a>
           </div>
         </Reveal>
 
-        <div style={{ display: "grid", gap: "1.25rem" }}>
+        {/* CONTRIBUTIONS + PINNED REPOSITORIES */}
+        <div className="gh-content">
           <Reveal delay={0.08}>
-            <div className="glass pad">
-              <h3 style={{ fontSize: "1rem" }}>GitHub Contributions</h3>
+            <div className="glass pad gh-contribution-card">
+              <h3 className="gh-card-title">GitHub Contributions</h3>
 
-              <p className="section-sub" style={{ fontSize: "0.84rem", marginTop: "0.35rem" }}>
+              <p className="section-sub gh-card-subtitle">
                 My GitHub contribution activity.
               </p>
 
-              <div
-                style={{
-                  marginTop: "1rem",
-                  width: "100%",
-                  overflowX: "auto",
-                  paddingBottom: "0.5rem",
-                }}
-              >
+              <div className="gh-contributions">
                 <img
                   src="https://ghchart.rshah.org/AtulMohinkar"
                   alt="Atul Mohinkar GitHub contribution graph"
-                  style={{
-                    width: "100%",
-                    minWidth: "650px",
-                    height: "auto",
-                    display: "block",
-                  }}
                   loading="lazy"
                 />
               </div>
             </div>
           </Reveal>
 
-          <Reveal delay={0.2}>
-            <div className="glass pad">
-              <h3 style={{ fontSize: "1rem", marginBottom: "1rem" }}>Pinned repositories</h3>
-              <div className="grid grid-2">
-                {projects.slice(0, 4).map((p) => (
+          <Reveal delay={0.16}>
+            <div className="glass pad gh-repositories">
+              <h3 className="gh-card-title">Pinned repositories</h3>
+
+              <div className="gh-repo-grid">
+                {projects.slice(0, 4).map((project) => (
                   <a
-                    key={p.id}
-                    className="glass fact card-hover"
-                    href={p.code}
+                    key={project.id}
+                    className="glass gh-repo card-hover"
+                    href={project.code}
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    <span>{p.title.split(" — ")[0]}</span>
-                    <strong style={{ display: "inline-flex", alignItems: "center", gap: "0.3rem" }}>
-                      <Star size={14} /> {p.metrics[0].value}
+                    <span className="gh-repo-name">
+                      {project.title.split(" — ")[0]}
+                    </span>
+
+                    <strong className="gh-repo-stars">
+                      <Star size={14} />
+                      {project.metrics[0].value}
                     </strong>
                   </a>
                 ))}

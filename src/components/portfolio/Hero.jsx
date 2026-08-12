@@ -43,18 +43,39 @@ export default function Hero() {
           <span className="eyebrow">
             <Sparkles size={14} /> {profile.availability}
           </span>
+
           <p className="section-sub" style={{ marginTop: 0 }}>
             Hi, I'm
           </p>
-          <h1 id="hero-title">
-            {profile.name}
-          </h1>
+
+          <h1 id="hero-title">{profile.name}</h1>
+
+          {/* MOBILE PROFILE PHOTO */}
+          <div className="hero-photo-mobile">
+            <span className="photo-frame" aria-hidden="true" />
+
+            <img
+              className="hero-photo"
+              src={profileImg}
+              width={816}
+              height={816}
+              alt={`Portrait of ${profile.name}, MERN stack developer`}
+            />
+
+            <div className="glass float-badge badge-tl">
+              <span className="dot-live" aria-hidden="true" />
+              Available for hire
+            </div>
+          </div>
+
           <p className="typing" aria-live="polite">
             <span className="gradient-text">{typed}</span>
             <span className="caret" aria-hidden="true" />
           </p>
+
           <p className="hero-tagline">{profile.tagline}</p>
 
+          {/* buttons... */}
           <div className="hero-actions">
             <a className="btn btn-primary" href={profile.resumeUrl} download>
               <Download size={17} /> Download Resume
@@ -96,7 +117,6 @@ export default function Hero() {
               <span>Module Build</span>
             </div>
           </div>
-
         </motion.div>
 
         <motion.div
