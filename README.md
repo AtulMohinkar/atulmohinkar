@@ -172,14 +172,15 @@ My current development focus is on building stronger foundations across the full
 
 ---
 
-# 📈 Contribution Graph
+## 📈 Contribution Graph
 
- <p align="centre">
-   <img src="https://ghchart.rshah.org/AtulMohinkar"
-     height="195"
-     width="100"
-     />
- </p>
+<p align="center">
+  <img
+    src="https://ghchart.rshah.org/AtulMohinkar"
+    alt="Atul Mohinkar GitHub Contribution Graph"
+    width="100%"
+  />
+</p>
  
  ---
 
