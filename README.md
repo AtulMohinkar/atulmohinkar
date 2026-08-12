@@ -200,6 +200,16 @@ My current development focus is on building stronger foundations across the full
     View my GitHub contribution graph →
   </a>
 </p>
+
+## 📈 Contributions
+
+<p align="center">
+  <img
+    src="./profile/contributions.svg"
+    alt="Atul Mohinkar GitHub Contributions"
+    width="100%"
+  />
+</p>
 ---
 
 # 🎯 2026 Goals
