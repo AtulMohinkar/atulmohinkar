@@ -205,12 +205,16 @@ My current development focus is on building stronger foundations across the full
 
 <p align="center">
   <img
-    src="./profile/contributions.svg"
+    src="./atulmohinkar/contributions.svg"
     alt="Atul Mohinkar GitHub Contributions"
     width="100%"
   />
 </p>
----
+
+ <p>
+   <img src="https://ghchart.rshah.org/AtulMohinkar"/>
+ </p>
+ ---
 
 # 🎯 2026 Goals
 
