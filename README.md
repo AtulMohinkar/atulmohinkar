@@ -150,41 +150,6 @@ My current development focus is on building stronger foundations across the full
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img
-    src="./profile/stats.svg"
-    alt="Atul Mohinkar GitHub Stats"
-    width="49%"
-  />
-  <img
-    src="./profile/top-langs.svg"
-    alt="Atul Mohinkar Top Languages"
-    width="49%"
-  />
-</p>
-
-## 📊 GitHub Analytics
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img
-        src="./profile/stats.svg"
-        alt="Atul Mohinkar GitHub Stats"
-        width="450"
-      />
-    </td>
-    <td align="center">
-      <img
-        src="./profile/top-langs.svg"
-        alt="Atul Mohinkar Top Languages"
-        width="450"
-      />
-    </td>
-  </tr>
-</table>
 
 
 
