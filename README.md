@@ -1,221 +1,254 @@
 # 👋 Hi, I'm Atul Mohinkar
 
-### `MERN Stack Developer` · `AI Student` · `Full-Stack Engineer`
+<h3 align="center">MERN Stack Developer · AI Student · Full-Stack Developer</h3>
 
-<p>
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=AtulMohinkar&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/AtulMohinkar?label=Followers&style=flat" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/AtulMohinkar?label=Stars&style=flat" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/followers/AtulMohinkar?label=Followers&style=flat" alt="Followers" />
 </p>
 
-> I build **full-stack web applications** with React, Node.js, Express and MongoDB — with a focus on clean UI, reliable APIs and maintainable code.
-
-🎓 B.Tech Artificial Intelligence Student
-💻 MERN Stack Developer
-🧠 Java + Data Structures & Algorithms
-🌱 Exploring TypeScript, Next.js, Docker & System Design
+<p align="center">
+  I build full-stack web applications using <strong>React, Node.js, Express and MongoDB</strong>,
+  with a focus on clean interfaces, reliable APIs and maintainable code.
+</p>
 
 ---
 
-## 🧑‍💻 About
+## 👨‍💻 About Me
 
-I'm a developer focused on turning ideas into **working, maintainable software**.
+I'm a **B.Tech Artificial Intelligence student** and **MERN Stack Developer** focused on turning ideas into practical, working software.
 
-My primary stack is **MERN**, where I work across the frontend, backend and database layers — from designing React interfaces to building REST APIs and connecting them with persistent data.
-
-I'm currently deepening my understanding of:
-
-* **Frontend architecture**
-* **Backend & REST API design**
-* **Database modeling**
-* **Authentication & authorization**
-* **Data Structures & Algorithms**
-* **System design**
-* **Deployment & DevOps**
-
-I care about writing code that is not only functional, but also **understandable, reusable and scalable**.
+* 🎓 B.Tech Artificial Intelligence Student
+* 💻 MERN Stack Developer
+* ⚛️ React & JavaScript focused
+* 🟢 Node.js & Express backend development
+* 🍃 MongoDB & SQL databases
+* 🧠 Java + Data Structures & Algorithms
+* 🌱 Currently exploring TypeScript, Next.js, Docker & System Design
+* 🎯 Preparing for software engineering opportunities
 
 ---
 
-# ⚡ What I Build
-
-```text
-┌──────────────────────────────────────────────┐
-│                  PRODUCT                     │
-├──────────────────────────────────────────────┤
-│                                              │
-│   React / Vite                               │
-│        ↓                                     │
-│   State Management                            │
-│        ↓                                     │
-│   REST API                                    │
-│        ↓                                     │
-│   Node.js + Express                           │
-│        ↓                                     │
-│   MongoDB / SQL                               │
-│        ↓                                     │
-│   Authentication                              │
-│        ↓                                     │
-│   Deployment                                  │
-│                                              │
-└──────────────────────────────────────────────┘
-```
-
-My development focus is the complete application lifecycle — **interface → API → database → deployment**.
-
----
-
-# 🛠️ Technology
+## 🛠️ Tech Stack
 
 ### Frontend
 
-`HTML5` · `CSS3` · `JavaScript` · `React` · `Vite` · `Redux`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,redux" />
+</p>
+
+<p align="center">
+  <strong>HTML5 · CSS3 · JavaScript · React · Vite · Redux</strong>
+</p>
 
 ### Backend
 
-`Node.js` · `Express.js` · `REST APIs`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+
+<p align="center">
+  <strong>Node.js · Express.js · REST APIs</strong>
+</p>
 
 ### Database
 
-`MongoDB` · `SQL`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+</p>
 
-### Programming
+<p align="center">
+  <strong>MongoDB · SQL</strong>
+</p>
 
-`Java` · `JavaScript` · `TypeScript`
+### Programming & Tools
 
-### Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,typescript,git,github,vscode" />
+</p>
 
-`Git` · `GitHub` · `VS Code`
+<p align="center">
+  <strong>Java · TypeScript · Git · GitHub · VS Code</strong>
+</p>
 
-### Exploring
+### Currently Exploring
 
-`Next.js` · `Docker` · `Redis` · `CI/CD` · `System Design`
+<p align="center">
+  <strong>Next.js · Docker · Redis · CI/CD · System Design</strong>
+</p>
 
 ---
 
-# 🚀 Selected Projects
+# 🚀 Featured Projects
 
-## 🏦 LeadOrbit
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Banking CRM & ERP
+### 🏦 LeadOrbit
 
-A business-oriented CRM/ERP application focused on **lead management and workflow organization**.
+**Banking CRM & ERP**
+
+A CRM/ERP application focused on lead management and business workflow organization.
 
 **Stack**
 
 `React` `Redux` `Context API` `REST APIs`
 
-**What I built**
+**Highlights**
 
-* 📊 Lead-management workflows supporting **100+ leads**
-* ⚛️ Reusable React dashboard components
-* 🔄 Centralized application state with Redux
+* 📊 100+ lead records
+* ⚛️ Reusable React components
+* 🔄 Redux state management
 * 🔌 REST API integration
-* 📱 Responsive dashboard experience
-* 🧩 Modular frontend architecture
+* 📱 Responsive dashboard
+* 🧩 Modular frontend structure
 
-**Engineering Focus**
+**Focus**
 
-`State Management` · `Reusable Components` · `API Integration` · `Dashboard UI`
+`State Management` · `API Integration` · `Dashboard UI`
 
----
+</td>
 
-## 🛒 E-Commerce
+<td width="50%" valign="top">
 
-### Full-Stack Shopping Application
+### 🛒 E-Commerce
 
-A MERN-based e-commerce application connecting a responsive React frontend with a Node/Express backend and MongoDB database.
+**Full-Stack Shopping Application**
+
+A MERN-based e-commerce application connecting a React frontend with a Node/Express backend and MongoDB.
 
 **Stack**
 
 `React` `Node.js` `Express.js` `MongoDB`
 
-**What I built**
+**Highlights**
 
-* 🛍️ Product workflows supporting **50+ products**
-* 🔌 RESTful backend APIs
-* 🍃 MongoDB data persistence
-* ⚛️ Reusable frontend components
-* 📱 Responsive shopping interface
-* 🔗 Frontend–backend integration
+* 🛍️ 50+ products
+* 🔌 RESTful APIs
+* 🍃 MongoDB persistence
+* ⚛️ Reusable components
+* 📱 Responsive interface
+* 🔗 Frontend/backend integration
 
-**Engineering Focus**
+**Focus**
 
-`REST APIs` · `MongoDB` · `Backend Development` · `Full-Stack Integration`
+`REST APIs` · `MongoDB` · `Backend` · `Full Stack`
 
----
+</td>
+</tr>
 
-## 🎯 NextStep
+<tr>
+<td width="50%" valign="top">
 
-### Career Guidance Platform
+### 🎯 NextStep
 
-A web platform designed to help students explore **career paths and technology-focused opportunities**.
+**Career Guidance Platform**
+
+A platform designed to help students explore career paths and technology opportunities.
 
 **Stack**
 
 `React` `Vite` `JavaScript`
 
-**What I built**
+**Highlights**
 
-* 🧭 **30+ career paths**
-* 📄 **10+ responsive pages**
-* ⚡ Vite-based development workflow
+* 🧭 30+ career paths
+* 📄 10+ responsive pages
+* ⚡ Vite development workflow
 * 🧩 Reusable React components
 * 📱 Responsive layouts
-* 🎨 Student-focused interface
 
 **Repository**
 
-[View NextStep on GitHub](https://github.com/AtulMohinkar/NextStep)
+[View on GitHub](https://github.com/AtulMohinkar/NextStep)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔨 More Projects
+
+I'm continuously building and improving full-stack applications around:
+
+* ⚛️ React applications
+* 🔌 REST APIs
+* 🟢 Node.js backends
+* 🍃 MongoDB systems
+* 🔐 Authentication
+* 📊 Dashboard applications
+* 🚀 Deployment
+
+More projects will be added as they reach a polished, production-ready state.
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 🧠 Engineering Areas
+# 🧠 Engineering Focus
 
-| Area         | What I'm Working On                              |
-| ------------ | ------------------------------------------------ |
-| Frontend     | React, state management, responsive architecture |
-| Backend      | Node.js, Express, REST API design                |
-| Database     | MongoDB, SQL, data modeling                      |
-| Security     | Authentication & authorization                   |
-| Performance  | API efficiency, frontend optimization            |
-| DSA          | Java + problem solving                           |
-| Architecture | Backend architecture & system design             |
-| DevOps       | Docker, CI/CD & deployment                       |
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20JavaScript%20%7C%20Redux-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Backend-Node%20%7C%20Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Database-MongoDB%20%7C%20SQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/DSA-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Architecture-REST%20APIs%20%7C%20System%20Design-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20CI%2FCD-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
 ---
 
 # 📚 Computer Science
 
-```text
-DATA STRUCTURES & ALGORITHMS
-├── Arrays
-├── Strings
-├── Linked Lists
-├── Stack & Queue
-├── Hashing
-├── Trees
-├── Graphs
-├── Recursion
-├── Sorting & Searching
-├── Greedy Algorithms
-└── Dynamic Programming
+<table align="center">
+<tr>
+<td align="center" width="50%">
 
-CORE COMPUTER SCIENCE
-├── Object-Oriented Programming
-├── DBMS
-├── Operating Systems
-├── Computer Networks
-└── System Design
-```
+### 🧠 Data Structures & Algorithms
+
+Arrays
+Strings
+Linked Lists
+Stacks & Queues
+Hashing
+Trees
+Graphs
+Recursion
+Sorting & Searching
+Greedy Algorithms
+Dynamic Programming
+
+</td>
+
+<td align="center" width="50%">
+
+### 💻 Core CS
+
+Object-Oriented Programming
+Database Management Systems
+Operating Systems
+Computer Networks
+System Design
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 📊 GitHub Overview
+# 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&hide_border=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&hide_border=true" height="180" />
 </p>
 
 ---
@@ -231,77 +264,98 @@ CORE COMPUTER SCIENCE
 # 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&hide_border=true&area=true" width="95%" />
 </p>
 
 ---
 
 # 🎯 Current Focus
 
-```text
-NOW
-│
-├── MERN Stack
-│   ├── React
-│   ├── Node.js
-│   ├── Express
-│   └── MongoDB
-│
-├── ENGINEERING
-│   ├── Backend Architecture
-│   ├── REST API Design
-│   ├── Database Design
-│   └── System Design
-│
-├── PROBLEM SOLVING
-│   └── Java + DSA
-│
-└── NEXT
-    ├── TypeScript
-    ├── Next.js
-    ├── Docker
-    └── Redis
-```
+<table align="center">
+<tr>
+<td align="center" width="25%">
+
+### ⚛️ Frontend
+
+React
+JavaScript
+Redux
+Responsive UI
+
+</td>
+
+<td align="center" width="25%">
+
+### 🟢 Backend
+
+Node.js
+Express
+REST APIs
+Authentication
+
+</td>
+
+<td align="center" width="25%">
+
+### 🧠 Problem Solving
+
+Java
+DSA
+OOP
+DBMS
+
+</td>
+
+<td align="center" width="25%">
+
+### 🏗️ Next
+
+TypeScript
+Next.js
+Docker
+System Design
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 🌱 Beyond the Stack
+# 🌱 Development Philosophy
 
-I'm not trying to learn technologies just to add them to a list.
+> **Don't just learn technologies. Build with them.**
 
-My goal is to understand **why and when** a technology should be used.
+I focus on understanding **why a technology is useful, where it fits, and how it can solve a real engineering problem**.
 
-That means moving from:
+My progression:
 
-`Writing Code`
-
-→ `Building Features`
-
-→ `Designing Systems`
-
-→ `Solving Engineering Problems`
+**Learn → Build → Debug → Improve → Deploy**
 
 ---
 
 # 📌 Developer Snapshot
 
-|                  |                                  |
-| ---------------- | -------------------------------- |
-| 🎓 Education     | B.Tech — Artificial Intelligence |
-| 💻 Primary Stack | MERN                             |
-| ⚛️ Frontend      | React                            |
-| 🟢 Backend       | Node.js + Express                |
-| 🍃 Database      | MongoDB                          |
-| 🧠 DSA           | Java                             |
-| 🌱 Learning      | TypeScript, Next.js, Docker      |
-| 🏗️ Interest     | Backend & System Design          |
-| 🎯 Career Goal   | Software Engineering             |
+<p align="center">
+
+|                      |                                  |
+| :------------------: | :------------------------------: |
+|   🎓 **Education**   | B.Tech — Artificial Intelligence |
+| 💻 **Primary Stack** |               MERN               |
+|    ⚛️ **Frontend**   |               React              |
+|    🟢 **Backend**    |         Node.js + Express        |
+|    🍃 **Database**   |              MongoDB             |
+|      🧠 **DSA**      |               Java               |
+|    🌱 **Learning**   |   TypeScript · Next.js · Docker  |
+|   🏗️ **Interests**  |      Backend · System Design     |
+|      🎯 **Goal**     |       Software Engineering       |
+
+</p>
 
 ---
 
 # 🤝 Let's Connect
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/AtulMohinkar">
     <img src="https://img.shields.io/badge/GitHub-AtulMohinkar-181717?style=for-the-badge&logo=github" />
   </a>
@@ -310,11 +364,10 @@ That means moving from:
 ---
 
 <p align="center">
-
-**Build → Break → Learn → Improve → Ship**
-
+  <strong>Build · Learn · Improve · Ship 🚀</strong>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AtulMohinkar&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
+
