@@ -186,6 +186,25 @@ My current development focus is on building stronger foundations across the full
   </tr>
 </table>
 
+
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img
+    src="./profile/stats.svg"
+    alt="Atul Mohinkar GitHub Stats"
+    width="49%"
+    height="195"
+  />
+  <img
+    src="./profile/top-langs.svg"
+    alt="Atul Mohinkar Top Languages"
+    width="49%"
+    height="195"
+  />
+</p>
+
 ---
 
 # 📈 Contribution Graph
