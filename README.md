@@ -175,8 +175,12 @@ My current development focus is on building stronger foundations across the full
 # 📈 Contribution Graph
 
  <p align="centre">
-   <img src="https://ghchart.rshah.org/AtulMohinkar"/>
+   <img src="https://ghchart.rshah.org/AtulMohinkar"
+     height="195"
+     width="100"
+     />
  </p>
+ 
  ---
 
 # 🎯 2026 Goals
