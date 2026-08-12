@@ -174,44 +174,7 @@ My current development focus is on building stronger foundations across the full
 
 # 📈 Contribution Graph
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&theme=tokyo-night&hide_border=true"
-    alt="Contribution Graph"
-  />
-</p>
-
-
-<h2>📈 GitHub Contributions</h2>
-
-<p align="center">
-  <a href="https://github.com/AtulMohinkar">
-    <img
-      src="https://github-readme-streak-stats.herokuapp.com/?user=AtulMohinkar"
-      alt="Atul Mohinkar GitHub Contributions"
-    />
-  </a>
-</p>
-
-## 📈 GitHub Contributions
-
-<p align="center">
-  <a href="https://github.com/AtulMohinkar">
-    View my GitHub contribution graph →
-  </a>
-</p>
-
-## 📈 Contributions
-
-<p align="center">
-  <img
-    src="./atulmohinkar/contributions.svg"
-    alt="Atul Mohinkar GitHub Contributions"
-    width="100%"
-  />
-</p>
-
- <p>
+ <p align="centre">
    <img src="https://ghchart.rshah.org/AtulMohinkar"/>
  </p>
  ---
