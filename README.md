@@ -1,11 +1,12 @@
-<h1 align="center">Hi 👋, I'm Atul Mohinkar</h1>
+# 👋 Hi, I'm Atul Mohinkar
 
 <p align="center">
-  <strong>Final Year AI Student | MERN Stack Developer | Aspiring Software Engineer</strong>
+  <strong>Final Year AI Student · MERN Stack Developer · Aspiring Software Engineer</strong>
 </p>
 
 <p align="center">
-  Building scalable web applications, solving problems with DSA, and continuously improving my software engineering skills.
+  Building practical full-stack applications, strengthening problem-solving with Java & DSA,
+  and developing strong software engineering fundamentals.
 </p>
 
 <p align="center">
@@ -14,104 +15,148 @@
   </a>
 </p>
 
-
-
 ---
 
 ## 👨‍💻 About Me
 
-<h4>I'm a Final Year **Artificial Intelligence student** passionate about building practical software and solving real-world problems through technology.</h4>
+I'm a **Final Year Artificial Intelligence student** focused on **full-stack web development and software engineering**.
 
 * 🎓 Final Year **Artificial Intelligence** student
-* 💻 **MERN Stack Developer** focused on full-stack web development
+* 💻 **MERN Stack Developer** focused on full-stack applications
 * 🧠 Practicing **Data Structures & Algorithms with Java**
-* 🚀 Building **production-oriented full-stack applications**
-* 🌱 Currently improving **React, TypeScript, Next.js, Backend Architecture, System Design & DevOps**
-* 🔐 Interested in **secure authentication and scalable application architecture**
+* 🚀 Building practical, production-oriented web applications
+* ⚛️ Working with **React, Node.js, Express.js & MongoDB**
+* 🌱 Expanding into **TypeScript, Next.js, Backend Architecture, System Design & DevOps**
+* 🔐 Interested in **authentication, authorization and secure application architecture**
 * 🤝 Interested in **Open Source Contributions**
-* 📚 Continuously improving my **problem-solving and software engineering fundamentals**
+* 📚 Continuously strengthening **problem-solving and software engineering fundamentals**
 * 💼 Open to **Software Engineering Internships & Full-Time Opportunities**
-* ⚡ *Consistency beats talent when talent isn't consistent.*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-### 💻 Languages
+### Languages
 
 <p>
   <img src="https://skillicons.dev/icons?i=java,javascript,html,css" alt="Languages"/>
 </p>
 
-### 🎨 Frontend
+### Frontend
 
 <p>
   <img src="https://skillicons.dev/icons?i=react,vite" alt="Frontend"/>
 </p>
 
-### ⚙️ Backend
+### Backend
 
 <p>
   <img src="https://skillicons.dev/icons?i=nodejs,express" alt="Backend"/>
 </p>
 
-### 🗄️ Databases
+### Databases
 
 <p>
   <img src="https://skillicons.dev/icons?i=mongodb,mysql" alt="Databases"/>
 </p>
 
-### 🧰 Tools & DevOps
+### Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode," alt="Tools and DevOps"/>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode" alt="Development Tools"/>
 </p>
+
+### Currently Exploring
+
+**TypeScript · Next.js · Backend Architecture · System Design · Docker · DevOps**
 
 ---
 
 # 🚀 Featured Projects
 
-## 📈 NextStep — Career Guidance Platform
+## 🧭 NextStep — Career Guidance Platform
 
-A career guidance platform designed to help students explore career paths, opportunities, and future learning directions.
+A responsive career guidance platform designed to help students explore career paths, opportunities, and future learning directions.
 
-**Tech:** React • Vite • JavaScript • CSS
+**Tech Stack:** React · Vite · JavaScript · CSS
 
-* 🧭 Organized **30+ career paths**
-* 📱 Built **10+ responsive pages**
+### Highlights
+
+* 🧭 Organized **30+ career paths** for structured exploration
+* 📱 Built **10+ responsive pages** across the platform
 * 🔎 Implemented career exploration and guidance features
-* ⚡ Developed reusable React components
-* 🎨 Designed a structured and user-focused interface
+* ⚛️ Developed reusable **React components**
+* 🎨 Designed a structured, user-focused interface
+* 🚀 Deployed as a live web application
 
 <p>
-  🔗 <a href="https://next-step-brown.vercel.app/">Live Demo</a>
-  &nbsp; | &nbsp;
-  💻 <a href="https://github.com/AtulMohinkar/NextStep">Source Code</a>
+  <a href="https://next-step-brown.vercel.app/">🌐 Live Demo</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/AtulMohinkar/NextStep">💻 Source Code</a>
 </p>
 
 ---
 
 ## 🛒 E-Commerce Web Application
 
-A full-stack e-commerce application designed around product management, authentication, REST APIs, and database operations.
+A full-stack e-commerce application focused on product management, authentication, REST APIs, and database-driven application development.
 
-**Tech:** React • Node.js • Express.js • MongoDB
+**Tech Stack:** React · Node.js · Express.js · MongoDB
 
-* 📦 Product management
-* 🔐 Authentication
+### Highlights
+
+* 📦 Product management functionality
+* 🔐 Authentication implementation
 * 🌐 REST API integration
 * 🗄️ MongoDB database operations
-* ⚡ Full-stack application architecture
+* ⚙️ Full-stack client-server architecture
+* 🔄 Frontend and backend integration
 
+<p>
+  💻 <strong>Source Code available in my GitHub repositories</strong>
+</p>
 
 ---
 
-# 📊 GitHub Analytics
+# 🧠 Engineering Focus
 
+My current development focus is on building stronger foundations across the full software development lifecycle:
 
+| Area            | Focus                                        |
+| --------------- | -------------------------------------------- |
+| Frontend        | React, component architecture, responsive UI |
+| Backend         | Node.js, Express.js, REST APIs               |
+| Database        | MongoDB, SQL, data modeling                  |
+| Problem Solving | DSA with Java                                |
+| Architecture    | Backend architecture, System Design          |
+| Security        | Authentication & Authorization               |
+| Modern Web      | TypeScript, Next.js                          |
+| DevOps          | Docker & deployment workflows                |
+| Collaboration   | Git, GitHub & Open Source                    |
+
+---
+
+# 📚 Currently Working On
+
+* 🧠 **Data Structures & Algorithms with Java**
+* ⚛️ **Advanced React**
+* 🟢 **MERN Stack Development**
+* 🔷 **TypeScript**
+* ▲ **Next.js**
+* 🏗️ **System Design**
+* 🐳 **Docker & DevOps**
+* 🔐 **Authentication & Authorization**
+* 🤝 **Open Source Contributions**
+
+---
+
+# 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AtulMohinkar&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=AtulMohinkar&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
 </p>
 
 <p align="center">
@@ -119,39 +164,30 @@ A full-stack e-commerce application designed around product management, authenti
     src="./AtulMohinkar/top-langs.svg"
     height="180"
     alt="Top Languages"
-  </p>
----
-
-# 📈 Contributions
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
+  />
 </p>
 
 ---
 
-### 🚀 Currently Working On
+# 📈 Contribution Graph
 
-* 📚 Data Structures & Algorithms
-* ⚛️ Advanced React
-* 🟢 MERN Stack Development
-* 🔷 TypeScript
-* ▲ Next.js
-* 🧠 System Design
-* 🐳 Docker & DevOps
-* 🔐 Authentication & Authorization
-* 🤝 Open Source Contributions
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&theme=tokyo-night&hide_border=true"
+    alt="Contribution Graph"
+  />
+</p>
 
 ---
 
-# 📈 2026 Goals
+# 🎯 2026 Goals
 
-* 🎯 Solve **500+ DSA problems**
+* 🧠 Solve **500+ DSA problems**
 * 🚀 Build **3–5 production-quality applications**
 * 🤝 Make meaningful **Open Source contributions**
 * 🐳 Learn **Docker & AWS**
-* 🧠 Strengthen **System Design**
-* 🔐 Build applications with better security practices
+* 🏗️ Strengthen **System Design**
+* 🔐 Build applications with stronger **security practices**
 * 💼 Secure a **Software Engineering role**
 
 ---
@@ -160,21 +196,11 @@ A full-stack e-commerce application designed around product management, authenti
 
 I'm interested in opportunities involving:
 
-* 💻 Full-Stack Development
-* ⚛️ React Development
-* 🟢 MERN Stack
-* 🧠 Software Engineering
-* 🔐 Backend & API Development
-* 🤝 Open Source
-* 🚀 Product Development
+**Full-Stack Development · React Development · MERN Stack · Software Engineering · Backend & API Development · Product Development · Open Source**
 
 <p align="center">
   <strong>💼 Open to Software Engineering Internships & Full-Time Opportunities</strong>
 </p>
-
----
-
-
 
 ---
 
@@ -197,14 +223,8 @@ I'm interested in opportunities involving:
 
 ---
 
-## 💡 Developer Philosophy
-
 <p align="center">
-  <b><i>"Build things that matter. Learn every day. Stay consistent."</i></b>
-</p>
-
-<p align="center">
-  ⭐ Thanks for visiting my profile!
+  <strong>Building. Learning. Improving.</strong>
   <br/>
-  If you find my projects useful, consider giving them a ⭐.
+  <sub>Thanks for visiting my GitHub profile.</sub>
 </p>
