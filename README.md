@@ -166,7 +166,7 @@ My current development focus is on building stronger foundations across the full
     src="./profile/top-langs.svg"
     alt="Atul Mohinkar Top Languages"
     width="49%"
-    height="195"
+    height="185"
   />
 </p>
 
@@ -184,7 +184,7 @@ My current development focus is on building stronger foundations across the full
     src="./profile/top-langs.svg"
     alt="Atul Mohinkar Top Languages"
     width="395"
-    height="195"
+    height="165"
   />
 </p>
 ---
