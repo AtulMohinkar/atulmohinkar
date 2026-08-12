@@ -150,48 +150,22 @@ My current development focus is on building stronger foundations across the full
 
 ---
 
-# 📊 GitHub Analytics
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&langs_count=8&hide_border=true&theme=tokyonight"
-    height="180"
-    alt="Atul Mohinkar Top Languages"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=AtulMohinkar&theme=tokyonight&hide_border=true"
-    alt="Atul Mohinkar GitHub Streak"
-  />
-</p>
-
 ## 📊 GitHub Analytics
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&theme=github_dark"
-    alt="GitHub Stats"
+    src="./profile/stats.svg"
+    alt="Atul Mohinkar GitHub Stats"
     width="49%"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&hide_border=true&langs_count=8&theme=github_dark"
-    alt="Top Languages"
+    src="./profile/top-langs.svg"
+    alt="Atul Mohinkar Top Languages"
     width="49%"
   />
 </p>
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=AtulMohinkar&theme=github-dark-blue&hide_border=true"
-    alt="GitHub Streak"
-  />
-</p>
-
-  
-📌 **Contribution activity:** GitHub's native contribution calendar and activity overview on my profile provide the most accurate view of my GitHub activity.
-
+---
 
 # 📈 Contribution Graph
 
