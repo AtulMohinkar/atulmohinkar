@@ -1,105 +1,253 @@
 # 👋 Hi, I'm Atul Mohinkar
 
-### Full-Stack MERN Developer | Artificial Intelligence Student
+### 🚀 MERN Stack Developer | AI Student | Full-Stack Developer
 
-I'm a final-year Artificial Intelligence student and Full-Stack MERN Developer passionate about building practical, responsive, and user-focused web applications.
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=AtulMohinkar&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
-This repository contains my personal developer portfolio, showcasing my projects, technical skills, and development journey.
+---
 
-## 🚀 Portfolio
+## 👨‍💻 About Me
 
-My portfolio brings together my projects, skills, GitHub activity, credentials, and contact information in one place.
+I'm a **B.Tech Artificial Intelligence student** and a **MERN Stack Developer** who enjoys building real-world web applications and solving problems with code.
 
-### ✨ Features
+* 🎓 B.Tech AI Student
+* 💻 MERN Stack Developer
+* 🌱 Currently learning **TypeScript, Next.js, Docker & System Design**
+* 🧠 Practicing **DSA with Java**
+* 🔨 Building full-stack projects
+* 📚 Improving **DBMS, OS, CN & OOP**
+* 🎯 Preparing for software engineering opportunities
 
-* 🎨 Modern and responsive UI
-* 🌓 Light and dark mode
-* 💻 Project showcase
-* 📊 GitHub profile and repository analytics
-* 📱 Responsive design for mobile and desktop
-* 📄 Resume and credentials section
-* 📬 Contact form
-* 🔗 Social and developer profiles
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-* React
-* Vite
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-* React Router
-* Redux
-* Context API
-* Framer Motion
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,redux" />
+</p>
 
 ### Backend
 
-* Node.js
-* Express.js
-* REST APIs
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
 
 ### Database
 
-* MongoDB
-* SQL
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+</p>
 
-### Tools
+### Languages & Tools
 
-* Git
-* GitHub
-* VS Code
-* Vercel
-* Figma
+<p>
+  <img src="https://skillicons.dev/icons?i=java,typescript,git,github,vscode" />
+</p>
 
-## 📌 Featured Projects
+### Currently Exploring
 
-### NextStep
-
-A career guidance platform designed to help students explore career paths and opportunities.
-
-**Tech:** React, Vite
-
-* 30+ career paths
-* 10+ responsive pages
-* Structured career exploration experience
-
-### E-Commerce Web Application
-
-A full-stack e-commerce application with product management, authentication, APIs, and database integration.
-
-**Tech:** React, Node.js, Express.js, MongoDB
-
-* Product management
-* Authentication
-* REST APIs
-* MongoDB integration
-
-## 📚 Currently Learning
-
-* TypeScript
-* Next.js
-* Advanced MERN
-* Data Structures & Algorithms
-* System Design
-* Docker
-* CI/CD
-* Backend Architecture
-
-## 🎯 Career Focus
-
-I'm focused on strengthening my software engineering, problem-solving, and full-stack development skills while building real-world applications.
-
-## 📫 Connect With Me
-
-* **GitHub:** [@AtulMohinkar](https://github.com/AtulMohinkar)
-* **Portfolio:** (https://atulmohinkar.vercel.app)
-* **LinkedIn:** (https://linkedin.com/in/atulmohinkar)
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,docker,redis" />
+</p>
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star.
+# 🚀 Featured Projects
 
-**Built with React, JavaScript, and a lot of learning.**
+## 🏦 LeadOrbit — Banking CRM & ERP
+
+A CRM and ERP application designed to manage leads and streamline business workflows.
+
+**Tech Stack:** React • Redux • Context API • REST APIs
+
+* 📊 Managed 100+ leads
+* 🔄 Centralized state management
+* ⚡ Reusable React components
+* 📱 Responsive dashboard
+* 🔌 REST API integration
+
+---
+
+## 🛒 E-Commerce Web Application
+
+A full-stack e-commerce application built with the MERN stack.
+
+**Tech Stack:** React • Node.js • Express.js • MongoDB
+
+* 🛍️ 50+ products
+* 🔐 Backend API architecture
+* 🗄️ MongoDB database
+* ⚡ REST APIs
+* 📱 Responsive interface
+
+---
+
+## 🎯 NextStep — Career Guidance Platform
+
+A career guidance platform helping students explore different career paths.
+
+**Tech Stack:** React • Vite • JavaScript
+
+* 🧭 30+ career paths
+* 📄 10+ responsive pages
+* 🎨 Modern user interface
+* ⚡ Vite-powered frontend
+
+🔗 **GitHub:**
+https://github.com/AtulMohinkar/NextStep
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&hide_border=true" height="180" />
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=AtulMohinkar&hide_border=true" />
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AtulMohinkar&no-frame=true&no-bg=true&margin-w=4" />
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AtulMohinkar&hide_border=true" width="100%" />
+</p>
+
+---
+
+# 🧠 Currently Learning
+
+| Technology        | Focus                 |
+| ----------------- | --------------------- |
+| ⚛️ React          | Advanced React        |
+| 🟦 TypeScript     | Type-safe development |
+| ▲ Next.js         | Full-stack React      |
+| 🟢 Node.js        | Backend development   |
+| 🚂 Express.js     | REST APIs             |
+| 🍃 MongoDB        | Database architecture |
+| 🧠 Java           | DSA & problem solving |
+| 🐳 Docker         | Containerization      |
+| 🔴 Redis          | Caching               |
+| 🏗️ System Design | Scalable applications |
+
+---
+
+# 🎯 2026 Goals
+
+* 🚀 Master MERN Stack
+* 🧠 Become strong in Java + DSA
+* 💻 Build production-level projects
+* 🟦 Master TypeScript
+* ▲ Learn Next.js deeply
+* 🐳 Learn Docker & CI/CD
+* 🏗️ Improve backend architecture
+* 📚 Strengthen CS fundamentals
+* 🌎 Contribute to open source
+* 💼 Become interview-ready for software engineering roles
+
+---
+
+# 📚 Computer Science
+
+```text
+DSA
+├── Arrays
+├── Strings
+├── Linked Lists
+├── Stack & Queue
+├── Trees
+├── Graphs
+├── Recursion
+├── Sorting & Searching
+├── Greedy
+└── Dynamic Programming
+
+Core CS
+├── OOP
+├── DBMS
+├── Operating Systems
+├── Computer Networks
+└── System Design
+```
+
+---
+
+# 💻 My Development Workflow
+
+```text
+💡 Idea
+   ↓
+🎨 UI / UX
+   ↓
+⚛️ React Frontend
+   ↓
+🔌 REST API
+   ↓
+🟢 Node + Express
+   ↓
+🍃 MongoDB / SQL
+   ↓
+🔐 Authentication
+   ↓
+🧪 Testing
+   ↓
+🐳 Deployment
+```
+
+---
+
+# 🔭 What I'm Working On
+
+* Full-stack MERN applications
+* Backend APIs
+* Developer portfolio improvements
+* GitHub profile optimization
+* DSA & problem solving
+* Advanced JavaScript
+* TypeScript & Next.js
+
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+
+<a href="https://github.com/AtulMohinkar">
+  <img src="https://img.shields.io/badge/GitHub-AtulMohinkar-181717?style=for-the-badge&logo=github" />
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AtulMohinkar&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <b>Code • Build • Learn • Repeat 🚀</b>
+</p>
+
+<p align="center">
+  ⭐ Thanks for visiting my profile!
+</p>
