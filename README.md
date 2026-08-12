@@ -181,6 +181,17 @@ My current development focus is on building stronger foundations across the full
   />
 </p>
 
+
+<h2>📈 GitHub Contributions</h2>
+
+<p align="center">
+  <a href="https://github.com/AtulMohinkar">
+    <img
+      src="https://github-readme-streak-stats.herokuapp.com/?user=AtulMohinkar"
+      alt="Atul Mohinkar GitHub Contributions"
+    />
+  </a>
+</p>
 ---
 
 # 🎯 2026 Goals
