@@ -157,16 +157,14 @@ My current development focus is on building stronger foundations across the full
 
 <p align="center">
   <img
-    src="./profile/stats.svg"
+    src="https://github-readme-stats.vercel.app/api?username=AtulMohinkar&show_icons=true&hide_border=true"
     alt="Atul Mohinkar GitHub Stats"
     width="49%"
-    height="195"
   />
   <img
-    src="./profile/top-langs.svg"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AtulMohinkar&layout=compact&hide_border=true"
     alt="Atul Mohinkar Top Languages"
     width="49%"
-    height="165"
   />
 </p>
 
