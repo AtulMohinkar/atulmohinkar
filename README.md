@@ -169,7 +169,7 @@ My current development focus is on building stronger foundations across the full
     width="49%"
     height="165"
   />
-</p>     not working 
+</p>     
 
 
 ---
